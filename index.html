@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Academic Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav aria-label="Main navigation">
+    <ul>
+      <li><a href="index.html">Portfolio</a></li>
+      <li><a href="index.html#timetable">Timetable</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero" aria-labelledby="portfolio-title">
+    <figure>
+      <div class="profile-placeholder" role="img" aria-label="Student profile placeholder">👨‍💻</div>
+      <figcaption>Student / Web Design Learner</figcaption>
+    </figure>
+
+    <div>
+      <h1 id="portfolio-title">My Personal Portfolio</h1>
+      <p>Hello! I am <strong>Navya Gupta</strong>, a student interested in
+        <span class="highlight">web development</span>, programming, and creative design.</p>
+      <p>This portfolio demonstrates semantic HTML5 structure and a weekly academic timetable.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="skills-title">
+    <h2 id="skills-title">My Skills</h2>
+    <div class="card-grid">
+      <article class="card">
+        <h3>HTML5</h3>
+        <p>I use semantic elements such as header, nav, main, section, article, figure and footer.</p>
+      </article>
+      <article class="card">
+        <h3>CSS</h3>
+        <p>I can apply selectors, colors, spacing, responsive layouts and hover effects.</p>
+      </article>
+      <article class="card">
+        <h3>Problem Solving</h3>
+        <p>I enjoy turning academic requirements into clean and structured web pages.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="timetable" aria-labelledby="timetable-title">
+    <h2 id="timetable-title">Academic Timetable</h2>
+    <div class="table-wrapper">
+      <table>
+        <caption>Weekly Class Schedule</caption>
+        <thead>
+          <tr>
+            <th scope="col">Day / Time</th>
+            <th scope="col">08:00–09:00</th>
+            <th scope="col">09:00–10:00</th>
+            <th scope="col">10:00–11:00</th>
+            <th scope="col">11:00–12:00</th>
+            <th scope="col">12:00–01:00</th>
+            <th scope="col">01:00–02:00</th>
+            <th scope="col">02:00–03:00</th>
+            <th scope="col">03:00–04:00</th>
+            <th scope="col">04:00–05:00</th>
+            <th scope="col">05:00–06:00</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">Monday</th>
+            <td class="free"></td>
+            <td class="free"></td>
+            <td><span class="course">BMAS0108<br>ABI-109</span></td>
+            <td class="free"></td>
+            <td class="class-cell">
+              <span class="course">2FA1 / BCSC1802 / ABI-213</span>
+              <span class="course">2FA2 / BCSC1802 / ABI-214</span>
+              <span class="course">2FA3 / BCSC1802 / ABV-218A</span>
+            </td>
+            <td class="free"></td>
+            <td class="free"></td>
+            <td><span class="course">BCSE0031<br>ABI-316</span></td>
+            <td><span class="course">BCSC0009<br>ABI-316</span></td>
+            <td><span class="course">BELH0020<br>ABI-316</span></td>
+          </tr>
+
+          <tr>
+            <th scope="row">Tuesday</th>
+            <td class="free"></td>
+            <td class="free"></td>
+            <td><span class="course">BMAS0108<br>ABI-316</span></td>
+            <td><span class="course">BCSC1003<br>ABI-316</span></td>
+            <td><span class="course">BCSE0031<br>ABI-316</span></td>
+            <td class="free"></td>
+            <td class="free"></td>
+            <td><span class="course">BCSC0009<br>ABI-306</span></td>
+            <td class="free"></td>
+            <td>
+              <span class="course">2FA1 / BELH0020<br>ABI-316</span>
+              <span class="course">2FA2 / BELH0020<br>ABI-207</span>
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">Wednesday</th>
+            <td class="free"></td>
+            <td class="free"></td>
+            <td><span class="course">BCSE0031<br>ABI-305</span></td>
+            <td class="class-cell"><span class="course">BCSC1805<br>(AA,FA,CA)<br>ABI-305</span></td>
+            <td class="class-cell"><span class="course">BCSC1805<br>(AA,FA,CA)<br>ABI-305</span></td>
+            <td class="free"></td>
+            <td class="class-cell"><span class="course">BCSC1006<br>(AA,FA,CA)<br>ABI-305</span></td>
+            <td class="class-cell"><span class="course">BCSC1006<br>(AA,FA,CA)<br>ABI-305</span></td>
+            <td class="class-cell"><span class="course">BCSC1006<br>(AA,FA,CA)<br>ABI-305</span></td>
+            <td><span class="course">BCSC0009<br>ABI-311</span></td>
+          </tr>
+
+          <tr>
+            <th scope="row">Thursday</th>
+            <td class="online"><span class="course">BCSM0001<br>ABI-425 (Dummy)<br>(Online)</span></td>
+            <td class="free"></td>
+            <td class="class-cell"><span class="course">BMAS0108<br>ABI-305</span></td>
+            <td class="class-cell"><span class="course">BCSC1805<br>(AA,FA,CA)<br>ABI-305</span></td>
+            <td><span class="course">BCSC1003<br>ABI-316</span></td>
+            <td class="free"></td>
+            <td class="class-cell"><span class="course">BCSC1805<br>(AA,FA,CA)<br>ABI-305</span></td>
+            <td class="class-cell"><span class="course">BCSC1006<br>(AA,FA,CA)<br>ABI-305</span></td>
+            <td class="class-cell"><span class="course">BCSC1006<br>(AA,FA,CA)<br>ABI-305</span></td>
+            <td class="free"></td>
+          </tr>
+
+          <tr>
+            <th scope="row">Friday</th>
+            <td class="online"><span class="course">BCSM0001<br>ABI-425 (Dummy)<br>(Online)</span></td>
+            <td class="free"></td>
+            <td><span class="course">BMAS0108<br>ABI-109</span></td>
+            <td><span class="course">BCSC1003<br>ABI-109</span></td>
+            <td class="free"></td>
+            <td class="free"></td>
+            <td class="free"></td>
+            <td><span class="course">BCSE0813<br>ABI-109</span></td>
+            <td><span class="course">BELH0020<br>ABI-109</span></td>
+            <td>
+              <span class="course">2FA1 / BELH0020<br>ABI-109</span>
+              <span class="course">2FA2 / BELH0020<br>ABI-201</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Your Name — Academic Portfolio</p>
+</footer>
+
+</body>
+</html>
